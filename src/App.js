@@ -14,7 +14,7 @@ class App extends Component {
 
   clickGoku = id => {
     const gokuClick = this.state.goku.filter(player => player.id === id);
-    console.log (gokuClick[0].clicked);
+    console.log (gokuClick);
     this.gokuShuffle(goku)
     if (gokuClick[0].clicked === false) {
       gokuClick[0].clicked = true;
@@ -24,6 +24,7 @@ class App extends Component {
         currentScore: newScore,
         bestScore: newBestScore,
         message: "Good Job! Keep going!",
+        // goku: goku.map(goku[0] => ({goku[0], clicked: true}))
       })
     }
     else {
@@ -34,6 +35,30 @@ class App extends Component {
       })
     }
   }
+
+  // clickGoku = id => {
+  //   const gokuClick = this.state.goku.filter(player => player.id === id);
+  //   console.log (gokuClick);
+  //   this.gokuShuffle(goku)
+  //   if (gokuClick[0].clicked === false) {
+  //     gokuClick[0].clicked = true;
+  //     let newScore = this.state.currentScore + 1
+  //     let newBestScore = (newScore > this.state.bestScore) ? newScore : this.state.bestScore
+  //     this.setState({
+  //       currentScore: newScore,
+  //       bestScore: newBestScore,
+  //       message: "Good Job! Keep going!",
+  //       goku: goku.map(goku[0] => ({goku[0], clicked: true}))
+  //     })
+  //   }
+  //   else {
+  //     this.setState({
+  //       currentScore:0,
+  //       message: "Game over, click a Goku to start over!",
+  //       goku: goku.map(goku => ({...goku, clicked: false}))
+  //     })
+  //   }
+  // }
 
   gokuShuffle = array => {
     for (let i = array.length - 1; i> 0; i--) {

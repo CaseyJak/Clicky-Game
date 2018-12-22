@@ -21,5 +21,19 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaseyJak/Clicky-Game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaseyJak/Clicky-Game/issues"
+  },
+  "homepage": "https://github.com/CaseyJak/Clicky-Game#readme"
 }
