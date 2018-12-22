@@ -14,8 +14,8 @@ class App extends Component {
 
   clickGoku = id => {
     const gokuClick = this.state.goku.filter(player => player.id === id);
-    console.log (gokuClick);
-    this.gokuShuffle(goku)
+    // console.log("this is the one I clicked " + JSON.stringify(gokuClick));
+    
     if (gokuClick[0].clicked === false) {
       gokuClick[0].clicked = true;
       let newScore = this.state.currentScore + 1
@@ -26,14 +26,26 @@ class App extends Component {
         message: "Good Job! Keep going!",
         // goku: goku.map(goku[0] => ({goku[0], clicked: true}))
       })
+      this.gokuShuffle(goku);
+      // console.log("this is the one I clicked after the change" + JSON.stringify(gokuClick));
     }
     else {
-      this.setState({
-        currentScore:0,
-        message: "Game over, click a Goku to start over!",
-        goku: goku.map(goku => ({...goku, clicked: false}))
-      })
+      this.gokuShuffle(goku);
+      this.handleLossChange();
+      // console.log("this is the array that should be set to clicked:false " + JSON.stringify(goku, null, 2));
+
     }
+  }
+
+  handleLossChange() {
+    this.setState({
+      currentScore:0,
+      message: "Game over, refresh to start over!",
+      goku: goku.map(obj => {
+        return obj.clicked = false
+      })
+    });
+    // console.log("what is in me " + JSON.stringify(this.state.goku, null, 2));
   }
 
   // clickGoku = id => {
