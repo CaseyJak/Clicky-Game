@@ -1,0 +1,11 @@
+.GokuButton{
+background: orange;
+}
+
+.GokuCard {
+    max-width: 200px;
+    max-height: 175px;
+    display:inline-block;
+    padding: 10px;
+    justify-content: center;
+}

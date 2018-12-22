@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Wrapper from "./components/Wrapper";
-import ScoreBar from "./components/ScoreBar";
+import Wrapper from "./components/Wrapper/Wrapper";
+import ScoreBar from "./components/ScoreBar/ScoreBar";
 import GokuCard from './components/GokuCard/GokuCard';
 import goku from "./goku.json"
 
