@@ -2,61 +2,73 @@
     {
         "id": 1,
         "name": "Base Goku",
-        "image": "https://vignette.wikia.nocookie.net/dragonball/images/2/27/Goku_3.png/revision/latest?cb=20120812173939"
+        "image": "https://vignette.wikia.nocookie.net/dragonball/images/2/27/Goku_3.png/revision/latest?cb=20120812173939",
+        "clicked": false
     },
     {
         "id": 2,
         "name": "Great Ape Goku",
-        "image": "https://vignette.wikia.nocookie.net/dragonball/images/3/3e/ApeGokuInPain.png/revision/latest?cb=20111106024715"
+        "image": "https://vignette.wikia.nocookie.net/dragonball/images/3/3e/ApeGokuInPain.png/revision/latest?cb=20111106024715",
+        "clicked": false
     },
     {
         "id": 3,
         "name": "Super Saiyan Goku",
-        "image": "https://vignette.wikia.nocookie.net/dragonball/images/6/60/SuperSaiyan_Goku_264357i8.JPG/revision/latest/scale-to-width-down/640?cb=20130305121824"
+        "image": "https://vignette.wikia.nocookie.net/dragonball/images/6/60/SuperSaiyan_Goku_264357i8.JPG/revision/latest/scale-to-width-down/640?cb=20130305121824",
+        "clicked": false
     },
     {
         "id": 4,
         "name": "Super Saiyan 2 Goku",
-        "image": "https://vignette.wikia.nocookie.net/dragonball/images/d/db/DBZ_-_214_-_Vegeta%27s_Pride-%28026236%2915-50-21-.JPG/revision/latest?cb=20130302042430"
+        "image": "https://vignette.wikia.nocookie.net/dragonball/images/d/db/DBZ_-_214_-_Vegeta%27s_Pride-%28026236%2915-50-21-.JPG/revision/latest?cb=20130302042430",
+        "clicked": false
     },
     {
         "id": 5,
         "name": "Super Saiyan 3 Goku",
-        "image": "https://vignette.wikia.nocookie.net/dragonball/images/6/60/GokuSSJ3.jpg/revision/latest?cb=20110722193505"
+        "image": "https://vignette.wikia.nocookie.net/dragonball/images/6/60/GokuSSJ3.jpg/revision/latest?cb=20110722193505",
+        "clicked": false
     },
     {
         "id": 6,
         "name": "Super Saiyan God Goku",
-        "image": "https://vignette.wikia.nocookie.net/dragonball/images/0/0c/DragonBall16.png/revision/latest/scale-to-width-down/640?cb=20151008013326"
+        "image": "https://vignette.wikia.nocookie.net/dragonball/images/0/0c/DragonBall16.png/revision/latest/scale-to-width-down/640?cb=20151008013326",
+        "clicked": false
     },
     {
         "id": 7,
         "name": "Super Saiyan Blue Goku",
-        "image": "https://vignette.wikia.nocookie.net/dragonball/images/a/af/49ad082610a26b665cb473ad964777cb.jpg/revision/latest/scale-to-width-down/640?cb=20151226030819"
+        "image": "https://vignette.wikia.nocookie.net/dragonball/images/a/af/49ad082610a26b665cb473ad964777cb.jpg/revision/latest/scale-to-width-down/640?cb=20151226030819",
+        "clicked": false
     },
     {
         "id": 8,
         "name": "Ultra Instinct Goku",
-        "image": "https://vignette.wikia.nocookie.net/dragonball/images/8/8b/Dragon-Ball-Super-Episode-130-Goku-Ultra-Instinct-Jiren-0184.jpg/revision/latest/scale-to-width-down/640?cb=20180318161936"
+        "image": "https://vignette.wikia.nocookie.net/dragonball/images/8/8b/Dragon-Ball-Super-Episode-130-Goku-Ultra-Instinct-Jiren-0184.jpg/revision/latest/scale-to-width-down/640?cb=20180318161936",
+        "clicked": false
     },
     {
         "id": 9,
         "name": "Vegito",
-        "image": "https://vignette.wikia.nocookie.net/dragonball/images/f/f2/Vegito-.jpg/revision/latest?cb=20090323195932"
+        "image": "https://vignette.wikia.nocookie.net/dragonball/images/f/f2/Vegito-.jpg/revision/latest?cb=20090323195932",
+        "clicked": false
     },
     {
         "id": 10,
         "name": "Super Saiyan Vegito",
-        "image": "https://vignette.wikia.nocookie.net/dragonball/images/5/5d/Vegito11.jpg/revision/latest?cb=20130201235721"
+        "image": "https://vignette.wikia.nocookie.net/dragonball/images/5/5d/Vegito11.jpg/revision/latest?cb=20130201235721",
+        "clicked": false
     },
     {
         "id": 11,
         "name": "Super Saiyan Blue Vegito",
-        "image": "https://vignette.wikia.nocookie.net/dragonball/images/5/51/Vegito01.png/revision/latest?cb=20161113063323"
+        "image": "https://vignette.wikia.nocookie.net/dragonball/images/5/51/Vegito01.png/revision/latest?cb=20161113063323",
+        "clicked": false
     },
     {
         "id": 12,
         "name": "Super Saiyan Gogeta",
-        "image": "https://vignette.wikia.nocookie.net/dragonball/images/3/38/SS_222.jpg/revision/latest/scale-to-width-down/640?cb=20160721213924"
+        "image": "https://vignette.wikia.nocookie.net/dragonball/images/3/38/SS_222.jpg/revision/latest/scale-to-width-down/640?cb=20160721213924",
+        "clicked": false
     }
 ]

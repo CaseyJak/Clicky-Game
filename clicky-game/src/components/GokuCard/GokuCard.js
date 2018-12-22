@@ -3,7 +3,7 @@ import "./GokuCard.css"
 
 function GokuCard(props) {
     return (
-        <div>
+        <div onClick={() => props.clickGoku(props.id)}>
             <img className="GokuCard" alt={props.name} src={props.image}/>
         </div>
     )
