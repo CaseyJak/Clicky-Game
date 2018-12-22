@@ -15,6 +15,7 @@ class App extends Component {
   clickGoku = id => {
     const gokuClick = this.state.goku.filter(player => player.id === id);
     console.log (gokuClick[0].clicked);
+    this.gokuShuffle(goku)
     if (gokuClick[0].clicked === false) {
       gokuClick[0].clicked = true;
       let newScore = this.state.currentScore + 1
